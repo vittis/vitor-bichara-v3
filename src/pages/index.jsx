@@ -222,10 +222,10 @@ class Index extends React.Component {
               for all my projects and details!
             </ProjectsCheckMore>
           </Projects>
-          <About offset={3}>
+          <About offset={window.innerHeight < 600 ? 3.25 : 3}>
             <Title>About</Title>
             <AboutHero>
-              <Avatar src={avatar} alt="John Doe" />
+              <Avatar src={avatar} alt="Vitor Bichara" />
               <AboutSub>Hey there! I'm a web developer currently living in Brasília, Brazil.</AboutSub>
             </AboutHero>
             <AboutDesc>
