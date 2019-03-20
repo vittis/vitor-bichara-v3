@@ -150,6 +150,7 @@ class Index extends React.Component {
                   </ProjectCard>
 
                   <ProjectCard
+                    hideMobile
                     title="Dog & Quote"
                     link="https://www.behance.net/gallery/38068151/Eagle"
                     bg="linear-gradient(to right, #e96443 0%, #904e95 100%)"
@@ -215,10 +216,19 @@ class Index extends React.Component {
                 style={{ textDecoration: 'underline', color: 'white' }}
                 rel="noopener noreferrer"
                 target="_blank"
+                href="https://devdb.io/vittis"
+              >
+                <strong>devdb</strong>
+              </a>{' '}
+              or{' '}
+              <a
+                style={{ textDecoration: 'underline', color: 'white' }}
+                rel="noopener noreferrer"
+                target="_blank"
                 href="https://github.com/vittis"
               >
-                <strong>github</strong>
-              </a>{' '}
+                <strong>github</strong>{' '}
+              </a>
               for all my projects and details!
             </ProjectsCheckMore>
           </Projects>
@@ -251,7 +261,16 @@ class Index extends React.Component {
                   target="_blank"
                   href="https://github.com/vittis"
                 >
-                  <strong>GitHub</strong>
+                  <strong>GitHub</strong>{' '}
+                </a>
+                or{' '}
+                <a
+                  style={{ textDecoration: 'underline', color: 'white' }}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://devdb.io/vittis"
+                >
+                  <strong>DevDB</strong>
                 </a>
               </ContactText>
             </Inner>

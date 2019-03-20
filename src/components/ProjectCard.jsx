@@ -24,14 +24,8 @@ const Title = styled.div`
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 `
 
-const ProjectImg = styled.img`
-  ${tw`rounded-tr-lg rounded-tl-lg pt-0 w-full shadow-lg h-auto`};
-  max-height: 340px;
-`
-
-const ProjectCard = ({ title, link, children, bg, projectImg }) => (
-  <Wrapper href={link} target="_blank" rel="noopener noreferrer" bg={bg}>
-    {/* <ProjectImg src={projectImg} alt={title} /> */}
+const ProjectCard = ({ title, link, children, bg, projectImg, hideMobile }) => (
+  <Wrapper className={hideMobile ? 'hide-mobile' : ''} href={link} target="_blank" rel="noopener noreferrer" bg={bg}>
     <ImageZoom
       image={{
         src: projectImg,
@@ -57,7 +51,12 @@ const ProjectCard = ({ title, link, children, bg, projectImg }) => (
 
 export default ProjectCard
 
+ProjectCard.defaultProps = {
+  hideMobile: false,
+}
+
 ProjectCard.propTypes = {
+  hideMobile: PropTypes.bool,
   title: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
   children: PropTypes.oneOfType([PropTypes.string, PropTypes.element]).isRequired,
