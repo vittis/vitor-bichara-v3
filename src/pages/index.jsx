@@ -55,11 +55,11 @@ const Avatar = styled.img`
 `
 
 const AboutSub = styled.span`
-  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-3xl xl:text-4xl`};
+  ${tw`text-white pt-12 lg:pt-0 lg:pl-12 text-2xl lg:text-2xl xl:text-3xl`};
 `
 
 const AboutDesc = styled.p`
-  ${tw`text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-6 md:pt-12 text-justify`};
+  ${tw`text-grey-light text-lg md:text-lg lg:text-xl font-sans pt-6 md:pt-12 text-justify`};
 `
 
 const ProjectsCheckMore = styled.div`
@@ -128,8 +128,8 @@ class Index extends React.Component {
                     bg="linear-gradient(to right, #1a2a6c 0%, #b21f1f 50%, #fdbb2d 100%)"
                     projectImg={brainnit}
                   >
-                    SaaS learning management system (<strong>LMS</strong>) where I had the pleasure to collaborate as
-                    the lead frontend developer.
+                    Learning management system (<strong>LMS</strong>) where I had the pleasure to collaborate as the
+                    lead frontend developer.
                   </ProjectCard>
                   <ProjectCard
                     title="Acid Games"
@@ -145,8 +145,7 @@ class Index extends React.Component {
                     bg="linear-gradient(to right, #093028 0%, #107f3f 100%)"
                     projectImg={castleArena}
                   >
-                    HTML5 real-time multiplayer strategy game. Contains a scalable server architecture built with
-                    Node.js.
+                    HTML5 real-time multiplayer strategy game. Uses a scalable server architecture built with Node.js.
                   </ProjectCard>
 
                   <ProjectCard
