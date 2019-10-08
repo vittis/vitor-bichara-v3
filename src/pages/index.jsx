@@ -132,6 +132,7 @@ class Index extends React.Component {
                     lead frontend developer.
                   </ProjectCard>
                   <ProjectCard
+                    hideMobile
                     title="Acid Games"
                     link="https://www.behance.net/gallery/43907099/Tomb-Raider"
                     bg="linear-gradient(to right, #292E49 0%, #536976 100%)"
@@ -180,6 +181,7 @@ class Index extends React.Component {
                     <a href="https://ldjam.com/">Ludum Dare #32</a>.
                   </ProjectCard>
                   <ProjectCard
+                    hideMobile
                     title="Water Works"
                     link="https://www.behance.net/gallery/52915793/Harry-Potter"
                     bg="linear-gradient(to right, #004FF9 0%, #FFF94C 100%)"
@@ -195,6 +197,7 @@ class Index extends React.Component {
                     , rated 1st place among the 52 games from all over Brazil.
                   </ProjectCard>
                   <ProjectCard
+                    hideMobile
                     title="Leo's Revenge"
                     link="https://www.behance.net/gallery/43907099/Tomb-Raider"
                     bg="linear-gradient(to right, #DD1A1A 0%, #DFA828 100%)"
