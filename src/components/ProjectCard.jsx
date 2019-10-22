@@ -9,7 +9,7 @@ const Wrapper = styled.div`
   max-width: 530px;
   margin-left: auto;
   margin-right: auto;
-  ${tw`shadow-lg relative no-underline rounded-lg pb-4 md:pb-8 text-white`};
+  ${tw`shadow-lg relative no-underline rounded-lg pb-4 md:pb-4 text-white`};
   background: ${props => props.bg};
   transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   &:hover {

@@ -23,7 +23,7 @@ import avatar from '../images/avatar.jpg'
 import brainnit from '../images/brainnit.png'
 import castleArena from '../images/castle-arena.jpg'
 import acidGames from '../images/acid-games.jpg'
-import dogQuote from '../images/dog-quote.png'
+import aircnc from '../images/aircnc.png'
 import hexsum from '../images/hexsum.png'
 import leosrevenge from '../images/leosrevenge.png'
 import trojantrip from '../images/trojantrip.png'
@@ -63,7 +63,7 @@ const AboutDesc = styled.p`
 `
 
 const ProjectsCheckMore = styled.div`
-  ${tw`text-center text-grey-light text-lg md:text-xl lg:text-2xl font-sans pt-4 md:pt-24`};
+  ${tw`text-center text-grey-light text-lg md:text-xl lg:text-xl font-sans pt-4 md:pt-12`};
 `
 
 const ContactText = styled.p`
@@ -151,12 +151,12 @@ class Index extends React.Component {
 
                   <ProjectCard
                     hideMobile
-                    title="Dog & Quote"
+                    title="Aircnc"
                     link="https://www.behance.net/gallery/38068151/Eagle"
-                    bg="linear-gradient(to right, #e96443 0%, #904e95 100%)"
-                    projectImg={dogQuote}
+                    bg="linear-gradient(to right, #521b0e 0%, #e96443 100%)"
+                    projectImg={aircnc}
                   >
-                    Simple web app that consumes API's to show a dog and a quote dynamically.
+                    Airbnb clone where users can schedule visits to workplaces based on personal technologies interests.
                   </ProjectCard>
                 </>
               )}
@@ -218,15 +218,6 @@ class Index extends React.Component {
                 style={{ textDecoration: 'underline', color: 'white' }}
                 rel="noopener noreferrer"
                 target="_blank"
-                href="https://devdb.io/vittis"
-              >
-                <strong>devdb</strong>
-              </a>{' '}
-              or{' '}
-              <a
-                style={{ textDecoration: 'underline', color: 'white' }}
-                rel="noopener noreferrer"
-                target="_blank"
                 href="https://github.com/vittis"
               >
                 <strong>github</strong>{' '}
@@ -264,15 +255,6 @@ class Index extends React.Component {
                   href="https://github.com/vittis"
                 >
                   <strong>GitHub</strong>{' '}
-                </a>
-                or{' '}
-                <a
-                  style={{ textDecoration: 'underline', color: 'white' }}
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="https://devdb.io/vittis"
-                >
-                  <strong>DevDB</strong>
                 </a>
               </ContactText>
             </Inner>
