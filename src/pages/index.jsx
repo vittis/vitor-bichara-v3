@@ -141,6 +141,7 @@ class Index extends React.Component {
                     Online gaming platform where developers can contribute by submitting HTML5 games.
                   </ProjectCard>
                   <ProjectCard
+                    hideMobile
                     title="CastleArena.io"
                     link="https://www.behance.net/gallery/52915793/Harry-Potter"
                     bg="linear-gradient(to right, #093028 0%, #107f3f 100%)"
@@ -150,7 +151,6 @@ class Index extends React.Component {
                   </ProjectCard>
 
                   <ProjectCard
-                    hideMobile
                     title="Aircnc"
                     link="https://www.behance.net/gallery/38068151/Eagle"
                     bg="linear-gradient(to right, #521b0e 0%, #e96443 100%)"
