@@ -22,7 +22,7 @@ import Contact from '../views/Contact'
 import avatar from '../images/avatar.jpg'
 import brainnit from '../images/brainnit.png'
 import castleArena from '../images/castle-arena.jpg'
-import acidGames from '../images/acid-games.jpg'
+import edinheirov3 from '../images/edinheirov3.png'
 import aircnc from '../images/aircnc.png'
 import hexsum from '../images/hexsum.png'
 import leosrevenge from '../images/leosrevenge.png'
@@ -124,7 +124,6 @@ class Index extends React.Component {
                 <>
                   <ProjectCard
                     title="Brainnit!"
-                    link="https://www.behance.net/gallery/58937147/Freiheit"
                     bg="linear-gradient(to right, #1a2a6c 0%, #b21f1f 50%, #fdbb2d 100%)"
                     projectImg={brainnit}
                   >
@@ -133,17 +132,15 @@ class Index extends React.Component {
                   </ProjectCard>
                   <ProjectCard
                     hideMobile
-                    title="Acid Games"
-                    link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+                    title="E-Dinheiro v3"
                     bg="linear-gradient(to right, #292E49 0%, #536976 100%)"
-                    projectImg={acidGames}
+                    projectImg={edinheirov3}
                   >
-                    Online gaming platform where developers can contribute by submitting HTML5 games.
+                    Third version of the E-Dinheiro internet banking platform which provides several banking services.
                   </ProjectCard>
                   <ProjectCard
                     hideMobile
                     title="CastleArena.io"
-                    link="https://www.behance.net/gallery/52915793/Harry-Potter"
                     bg="linear-gradient(to right, #093028 0%, #107f3f 100%)"
                     projectImg={castleArena}
                   >
@@ -152,7 +149,6 @@ class Index extends React.Component {
 
                   <ProjectCard
                     title="Aircnc"
-                    link="https://www.behance.net/gallery/38068151/Eagle"
                     bg="linear-gradient(to right, #521b0e 0%, #e96443 100%)"
                     projectImg={aircnc}
                   >
@@ -164,7 +160,6 @@ class Index extends React.Component {
                 <>
                   <ProjectCard
                     title="Hexsum"
-                    link="https://www.behance.net/gallery/58937147/Freiheit"
                     bg="linear-gradient(to right, #37240A 0%, #106635 100%)"
                     projectImg={hexsum}
                   >
@@ -173,7 +168,6 @@ class Index extends React.Component {
                   </ProjectCard>
                   <ProjectCard
                     title="Trojan Trip"
-                    link="https://www.behance.net/gallery/38068151/Eagle"
                     bg="linear-gradient(to right, #4c2106 0%, #6b0638 50%, #085184 100%)"
                     projectImg={trojantrip}
                   >
@@ -183,7 +177,6 @@ class Index extends React.Component {
                   <ProjectCard
                     hideMobile
                     title="Water Works"
-                    link="https://www.behance.net/gallery/52915793/Harry-Potter"
                     bg="linear-gradient(to right, #004FF9 0%, #FFF94C 100%)"
                     projectImg={waterWorks}
                   >
@@ -199,7 +192,6 @@ class Index extends React.Component {
                   <ProjectCard
                     hideMobile
                     title="Leo's Revenge"
-                    link="https://www.behance.net/gallery/43907099/Tomb-Raider"
                     bg="linear-gradient(to right, #DD1A1A 0%, #DFA828 100%)"
                     projectImg={leosrevenge}
                   >
